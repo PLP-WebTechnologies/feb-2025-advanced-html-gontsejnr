@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced HTML</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to Info Webpage</h1>
+
+      <!-- Audio Element -->
+      <h2>Listen to some music</h2>
+      <audio controls>
+        <source src="your-audio-file.mp3" type="audio/mp3" />
+        Your browser does not support the audio element.
+      </audio>
+
+      <!-- Video Element -->
+      <h2>Watch a Video</h2>
+      <video width="600" controls>
+        <source
+          src="https://videos.pexels.com/video-files/5377684/5377684-sd_640_360_25fps.mp4"
+          type="video/mp4"
+        />
+        Your browser does not support the video element.
+      </video>
+
+      <!-- Registration Form with Validation -->
+      <div class="form-container">
+        <h2>Registration Form</h2>
+        <form action="#" method="post">
+          <label for="name">Full Name:</label><br />
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="Enter your name"
+          /><br /><br />
+
+          <label for="email">Email Address:</label><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="Enter your email"
+          /><br /><br />
+
+          <label for="password">Password:</label><br />
+          <input
+            type="password"
+            id="password"
+            name="password"
+            required
+            placeholder="Enter your password"
+          /><br /><br />
+
+          <label for="confirm-password">Confirm Password:</label><br />
+          <input
+            type="password"
+            id="confirm-password"
+            name="confirm-password"
+            required
+            placeholder="Confirm your password"
+          /><br /><br />
+
+          <label for="dob">Date of Birth:</label><br />
+          <input
+            type="date"
+            id="dob"
+            name="dob"
+            required
+            placeholder="Enter your date of birth"
+          /><br /><br />
+
+          <label for="country">Country:</label> <br />
+          <select id="country" name="country" required>
+            <option value="">Select your country</option>
+            <option value="SA">South Africa</option>
+            <option value="KN">Kenya</option>
+            <option value="Za">Zambia</option>
+            <option value="NG">Nigeria</option>
+          </select>
+          <br /><br />
+
+          <label>Gender:</label><br />
+
+          <input type="radio" id="male" name="gender" value="male" required />
+          <label for="male">Male</label><br />
+
+          <input type="radio" id="female" name="gender" value="female" />
+          <label for="female">Female</label>
+          <br /><br />
+
+          <label>Interests:</label><br />
+
+          <input type="checkbox" id="sports" name="interests" value="Sports" />
+          <label for="sports">Sports</label><br />
+
+          <input type="checkbox" id="music" name="interests" value="Music" />
+          <label for="music">Music</label><br />
+
+          <input type="checkbox" id="travel" name="interests" value="Travel" />
+          <label for="travel">Travel</label>
+          <br /><br />
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+
+      <!-- Embed an Image -->
+      <h2>Featured Image</h2>
+      <img
+        src="https://images.pexels.com/photos/574069/pexels-photo-574069.jpeg?auto=compress&cs=tinysrgb&w=800"
+        alt="Featured Image"
+        width="600"
+      />
+
+      <!-- Table -->
+      <h2>Information Table</h2>
+      <table>
+        <tr>
+          <th>Name :</th>
+          <th>Address :</th>
+          <th>Mobile :</th>
+          <th>Emails :</th>
+        </tr>
+        <tr>
+          <td>John Doe</td>
+          <td>28 Acre St</td>
+          <td>0123456789</td>
+          <td>john@doe.com</td>
+        </tr>
+        <tr>
+          <td>Jane Smith</td>
+          <td>23 Acre Street</td>
+          <td>0123456789</td>
+          <td>jane@smith.com</td>
+        </tr>
+        <tr>
+          <td>Anna Lee</td>
+          <td>218 John st</td>
+          <td>0012326789</td>
+          <td>lee@ann.com</td>
+        </tr>
+        <tr>
+          <td>Jr Smith</td>
+          <td>208 smith st</td>
+          <td>12212326789</td>
+          <td>smith@jr.com</td>
+        </tr>
+        <tr>
+          <td>Griff John</td>
+          <td>09 junior st</td>
+          <td>0012326789</td>
+          <td>griff@john.com</td>
+        </tr>
+      </table>
+
+      <!-- Country List -->
+      <h2>Countries to Visit</h2>
+      <ol type="i">
+        <li>Zambia</li>
+        <li>Kenya</li>
+        <li>Namibia</li>
+        <li>Lesotho</li>
+      </ol>
+    </div>
+  </body>
+</html>
